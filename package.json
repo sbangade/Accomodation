@@ -1,0 +1,22 @@
+{
+  "name": "accomodation",
+  "version": "1.0.0",
+  "description": "accomodation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "shubham bangade",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.3",
+    "node": "^16.5.0",
+    "nodemon": "^2.0.12"
+  }
+}
